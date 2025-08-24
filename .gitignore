@@ -1,0 +1,44 @@
+# Файлы и папки сборки
+build/
+bin/
+lib/
+
+# Файлы CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Артефакты сборки
+*.o
+*.obj
+*.so
+*.a
+*.dll
+*.exe
+*.out
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.temp
+
+# GoogleTest и тестовые артефакты
+_testing_*
+
+# Файлы IDE / редакторов (на случай использования)
+*.user
+*.user.*
+*.suo
+*.VC.db
+*.vcxproj.*
+*.idea/
+*.vscode/
+
+# OS-системные файлы
+.DS_Store
+Thumbs.db
+
+# Другие временные файлы
+*.swp
+*~
